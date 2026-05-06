@@ -1,11 +1,8 @@
-Project 1 - Linked Lists
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h> //has useful functions for dealing with characters
 #include <math.h>// power function used in radix sort
-//Veronica Ibrahim Wakileh 1220245 section 3
 struct district{//create a node to build the district list
     int totalPopulation;//this is computed using a function called calculate District Population
     char data[51]; //define a string with maximum 50 character used to store district name //51 includes NULL charachter
